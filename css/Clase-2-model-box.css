@@ -4,6 +4,7 @@ body {
 
 .container {
     display: flex;
+    gap: 20px;
 }
 
 .box {
@@ -15,15 +16,24 @@ body {
 
 .content-box {
     box-sizing: content-box;
+    background-color: pink;
 }
 
 .border-box {
     box-sizing: border-box;
+    background-color: rgb(247, 49, 250);
 }
 
-{}
+.medidas {
+    font-size: 14px;
+    color: rgb(137, 206, 238);
+    margin-top: 5px;
+}
 
-{}
+.resalto {
+    background-color: aliceblue;
+    padding: 2px 5px;
+}
 
 {}
 
