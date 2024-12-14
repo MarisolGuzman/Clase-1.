@@ -5,7 +5,7 @@ body {
     font-family: "Mystery Quest", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: #b84343;
+    color: hsl(315, 69%, 50%);
     line-height: 1.6;
 }
 
@@ -13,7 +13,7 @@ body {
 /* Ejemplo de cascada */
 
 .contenedor {
-    background-color: #f0f0f0;
+    background-color: #efe0e8;
     padding: 20px;
 }
 
@@ -21,41 +21,41 @@ body {
 /* Diferentes niveles de especificidad */
 
 .p {
-    color: blue;
+    color: rgb(84, 159, 205);
 }
 
 .texto {
-    color: red;
+    color: rgb(194, 110, 21);
     /* color: red !important; Si o si aplica el color rojo a los elemento de tipo P*/
 }
 
 #parrafo-especial {
-    color: green;
+    color: rgb(208, 36, 91);
 }
 
 .contenedor .texto.destacado {
-    color: purple;
+    color: rgb(120, 29, 120);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .seccion-familiar {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid #666;
+    border: 2px solid #198c13;
     padding: 15px;
     margin-top: 20px;
 }
 
 .caja-simple {
-    background-color: #ffcdd2;
-    border: 2px dashed #f44336;
+    background-color: #4d4d96;
+    border: 2px dashed #f0eceb;
     padding: 10px;
     margin: 10px 0;
 }
 
 .texto-centrado {
     text-align: center;
-    color: #2196f3;
+    color: #266313;
 }
 
 .texto-grande {
