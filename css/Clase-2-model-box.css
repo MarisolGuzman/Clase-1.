@@ -10,23 +10,23 @@ body {
 .box {
     width: 200px;
     padding: 20px;
-    border: 5px solid black;
-    background-color: rgb(148, 144, 144);
+    border: 5px solid rgb(49, 23, 23);
+    background-color: rgb(152, 115, 30);
 }
 
 .content-box {
     box-sizing: content-box;
-    background-color: pink;
+    background-color: rgb(139, 98, 139);
 }
 
 .border-box {
     box-sizing: border-box;
-    background-color: rgb(247, 49, 250);
+    background-color: rgb(198, 73, 96);
 }
 
 .medidas {
     font-size: 14px;
-    color: rgb(137, 206, 238);
+    color: rgb(226, 106, 15);
     margin-top: 5px;
 }
 
